@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pub_dev_packges/read_more_pkg.dart';
+import 'package:pub_dev_packges/badges_pkg.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Packges',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: const ReadMorePkg(),
-      
-    );
+        title: 'Packges',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(primarySwatch: Colors.blue),
+        home: const BadgesPackage());
   }
 }
