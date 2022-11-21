@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pub_dev_packges/home_page.dart';
+import 'package:pub_dev_packges/read_more_pkg.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Packges',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const HomePage(),
+      home: const ReadMorePkg(),
+      
     );
   }
 }
