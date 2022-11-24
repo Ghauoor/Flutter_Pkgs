@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pub_dev_packges/animated_text.dart';
+import 'package:pub_dev_packges/pin_code_field.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
         title: 'Packges',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: AnimatedText());
+        home: const PinCodeFields());
   }
 }

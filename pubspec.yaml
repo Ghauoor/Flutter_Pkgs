@@ -33,6 +33,7 @@ dependencies:
   flutter:
     sdk: flutter
   font_awesome_flutter: ^10.2.1
+  pin_code_fields: ^7.4.0
   readmore: ^2.2.0
 
 dev_dependencies:
