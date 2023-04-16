@@ -1,4 +1,4 @@
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 
 class BadgesPackage extends StatefulWidget {
@@ -14,7 +14,7 @@ class _BadgesPackageState extends State<BadgesPackage> {
     return Scaffold(
       appBar: AppBar(
         actions: [
-          Badge(
+          badges.Badge(
             child: const Icon(Icons.shopping_bag),
             badgeContent: const Text(
               '1',
@@ -23,7 +23,6 @@ class _BadgesPackageState extends State<BadgesPackage> {
               ),
             ),
             animationDuration: const Duration(seconds: 6),
-            animationType: BadgeAnimationType.slide,
             badgeColor: Colors.red,
           ),
           const SizedBox(width: 20),
